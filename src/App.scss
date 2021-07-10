@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+.main {
+  max-width: 1080px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+a {
+  color: $primary-color-dark;
+}

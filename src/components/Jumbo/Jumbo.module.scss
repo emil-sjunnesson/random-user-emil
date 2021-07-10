@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+
+.jumbo {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: white;
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    &:hover {
+      background-color: $primary-color-dark
+    }
+  }
+}
